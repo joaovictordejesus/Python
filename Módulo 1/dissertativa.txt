@@ -1,0 +1,8 @@
+Para calcular a multiplicação de 9 por um número  n  utilizando o truque da tabuada do 9, seguimos os passos abaixo:
+
+1. Entrada de Dados: Leitura do número n que queremos multiplicar por 9.
+2. Processamento:
+     Calcular o primeiro dígito da resposta,  digito1 , subtraindo 1 de  n :  (digito1 = n - 1).
+     Calcular o segundo dígito da resposta,  digito2 , subtraindo n de 10: ( digito2 = 10 - n).
+     Combinar os dois dígitos para obter o resultado final. Multiplicar digito1  por 10 (para poder obter a dezena) e somar com  digito2, que é uma unidade.
+3. Saída de Dados: Imprimir o resultado final da multiplicação.
