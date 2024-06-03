@@ -9,6 +9,7 @@ senhas e funções.
 Na aba Produtos, é possível adicionar(CREATE) e remover produtos(DELETE), visualizar a lista de produtos cadastrados(READ), buscar um produto específico, ordenar por nome e por preço(UPDATE).
 Para usuários, criei o usuário Joao como gerente, como já citado acima, e também o usuário Teste, com a senha Teste, com a função de estoquista, sendo assim, este não tem acesso à aba de usuários.
 Para produtos criei dois testes, um deles é Caixa, Preço:23 e Quantidade:2, e Cadeira, Preço:45 e Quantidade:5. 
+O local de salvamento para salvar os dados é um arquivo CSV(Excel)
 Para salvar as informações no CSV, foi usdo o comando  writer = csv.writer(outfile)
 
 É por meio desse trecho de código que acontece a limitação dos usuários que não são gerentes:
