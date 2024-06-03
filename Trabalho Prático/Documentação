@@ -1,0 +1,29 @@
+Neste Trabalho, foi utilizado uma biblioteca extra, mas de extrema importância,que é o tkinter. Por meio de pesquisas pude descobrir que esta biblioteca me possibilitaria desenvolver um 
+sistema mais completo, podendo inclusive transformar em um executável após a instalação do pyinstaller(pip install pyinstaller) e após o comando pyinstaller main.py no terminal.
+Este sistema foi desenvolvido de forma mais genérica, podendo servir para empresas de diversos ramos.
+No sistema existem duas abas, uma é de Cliente e outra é de Usuário, de forma que apenas usuários com a permissão gerente podem acessar a aba usuário. Ou seja, apenas Gerentes podem adcionar
+ou remover Usários.
+Criei um usuário incial que teria acesso as duas abas: Usuário: Joao  Senha:2024
+Na aba de Usuários é possível: Adicionar e Remover Usuário, Atualizar Usuário (Mudar Nome, Função e Senha) e Visualizar usuários, que permite que o gerente veja a lista de usuários, suas 
+senhas e funções.
+Na aba Produtos, é possível adicionar e remover produtos, visulaizar a lista de produtos cadastrados, buscar um produto específico, ordenar por nome e por preço.
+Para usuários, criei o usuário Joao como gerente, como já citado acima, e também o usuário Teste, com a senha Teste, com a função de estoquista, sendo assim, este não tem acesso à aba de usuários.
+Para produtos criei dois testes, um deles é Caixa, Preço:23 e Quantidade:2, e Cadeira, Preço:45 e Quantidade:5. 
+Para salvar as informações no CSV, foi usdo o comando  writer = csv.writer(outfile)
+
+É por meio desse trecho de código que acontece a limitação dos usuários que não são gerentes:
+if user["permissao"] == "gerente":
+                app = MainApp(username)
+                app.mainloop()
+            else:
+                app = MainApp(username, limited=True)
+                app.mainloop()
+
+Para o surgimento das janelas pop up, foi seguida a seguinte lógica:
+messagebox.showinfo("Sucesso", "Usuário removido com sucesso")
+            else:
+                messagebox.showerror("Erro", "Usuário não encontrado")
+Se a operação é concluída, ela exibe uma mensagem de sucesso, caso contrário, exibe uma mensagem de erro.
+
+Incialmente tive dificuldades em como elaborar o sistema, já que queria algo que já demonstrasse a aparência de um sistema real, mas após pesquisas encontrei a biblioteca Tkinter, 
+o que facilitou neste preocesso. Agora, o que faltou a esse sistema é modificar sua aparência, por meio da programação front-end.
