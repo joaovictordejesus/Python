@@ -1,7 +1,7 @@
 Neste Trabalho, foi utilizada uma biblioteca extra, mas de extrema importância,que é o tkinter. Por meio de pesquisas pude descobrir que esta biblioteca me possibilitaria desenvolver um 
 sistema mais completo, podendo inclusive transformar em um executável após a instalação do pyinstaller(pip install pyinstaller) e após o comando pyinstaller main.py no terminal.
 Este sistema foi desenvolvido de forma mais genérica, podendo servir para empresas de diversos ramos.
-No sistema existem duas abas, uma é de Cliente e outra é de Usuário, de forma que apenas usuários com a permissão gerente podem acessar a aba usuário. Ou seja, apenas Gerentes podem adcionar
+No sistema existem duas abas, uma é de Cliente e outra é de Usuário, de forma que apenas usuários com a permissão gerente podem acessar a aba usuário. Ou seja, apenas Gerentes podem adicionar
 ou remover Usários.
 Criei um usuário incial que teria acesso as duas abas: Usuário: Joao  Senha:2024
 Na aba de Usuários é possível: Adicionar(CREATE) e Remover Usuário(DELETE), Atualizar Usuário:Mudar Nome, Função e Senha(UPDATE) e Visualizar usuários(READ), que permite que o gerente veja a lista de usuários, suas 
@@ -9,7 +9,7 @@ senhas e funções.
 Na aba Produtos, é possível adicionar(CREATE) e remover produtos(DELETE), visualizar a lista de produtos cadastrados(READ), buscar um produto específico, ordenar por nome e por preço(UPDATE).
 Para usuários, criei o usuário Joao como gerente, como já citado acima, e também o usuário Teste, com a senha Teste, com a função de estoquista, sendo assim, este não tem acesso à aba de usuários.
 Para produtos criei dois testes, um deles é Caixa, Preço:23 e Quantidade:2, e Cadeira, Preço:45 e Quantidade:5. 
-O local de salvamento para salvar os dados é um arquivo CSV(Excel)
+O local de salvamento para salvar os dados são arquivos CSV(Excel)
 Para salvar as informações no CSV, foi usdo o comando  writer = csv.writer(outfile)
 
 É por meio desse trecho de código que acontece a limitação dos usuários que não são gerentes:
