@@ -1,4 +1,4 @@
-Neste Trabalho, foi utilizado uma biblioteca extra, mas de extrema importância,que é o tkinter. Por meio de pesquisas pude descobrir que esta biblioteca me possibilitaria desenvolver um 
+Neste Trabalho, foi utilizada uma biblioteca extra, mas de extrema importância,que é o tkinter. Por meio de pesquisas pude descobrir que esta biblioteca me possibilitaria desenvolver um 
 sistema mais completo, podendo inclusive transformar em um executável após a instalação do pyinstaller(pip install pyinstaller) e após o comando pyinstaller main.py no terminal.
 Este sistema foi desenvolvido de forma mais genérica, podendo servir para empresas de diversos ramos.
 No sistema existem duas abas, uma é de Cliente e outra é de Usuário, de forma que apenas usuários com a permissão gerente podem acessar a aba usuário. Ou seja, apenas Gerentes podem adcionar
