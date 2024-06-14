@@ -1,3 +1,5 @@
+# Conta até o número definido.
+
 n = int(input("Digite um valor de n: "))
 
 cont=0
