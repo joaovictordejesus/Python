@@ -1,3 +1,5 @@
+# Conta quantas vogais tem em uma frase.
+
 def contar_vogais():
     frase = input("Digite uma frase: ")
     vogais = 'aeiouAEIOUáéíóúÁÉÍÓÚãÃ'
