@@ -1,5 +1,6 @@
 #  Verificar se os pontos de atributo estão de acordo com a classe
-classe = input("Escolha a classe (guerreiro, mago ou arqueiro): ").strip().lower()
+
+classe = input("Escolha a classe (guerreiro, mago ou arqueiro): ").strip().lower() 
 forca = int(input("Digite os pontos de força (de 1 a 20): "))
 magia = int(input("Digite os pontos de magia (de 1 a 20): "))
 
