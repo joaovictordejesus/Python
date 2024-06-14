@@ -1,3 +1,5 @@
+# Cria uma espécie de "forca", em que o usuário tem que adivinhar uma palavra por meio de letras.
+
 import random
 
 def imprime_enforcado(erros):
