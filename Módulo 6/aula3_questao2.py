@@ -1,3 +1,5 @@
+# O usuário fornece os url e o programa retorna o nome do domínio.
+
 urls = ["www.google.com", "www.gmail.com", "www.github.com", "www.reddit.com", "www.yahoo.com"]
 
 dominios = [url[4:-4] for url in urls]
