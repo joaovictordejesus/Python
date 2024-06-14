@@ -1,4 +1,5 @@
 # Classificação de filmes
+
 avaliacao = int(input("Digite a avaliação do filme (1 a 5): "))
 
 if avaliacao == 5:
