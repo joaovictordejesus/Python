@@ -1,3 +1,5 @@
+# Divide um valor pelo outro
+
 valor1 = 5
 valor2 = 2
 print("Tipo de valor1:", type(valor1))
