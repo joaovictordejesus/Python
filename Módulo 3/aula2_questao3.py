@@ -1,4 +1,4 @@
-# 3 Verificar se o usuário pode ingressar no clube juvenil de jogos de tabuleiro
+#  Verificar se o usuário pode ingressar no clube juvenil de jogos de tabuleiro
 
 idade = int(input("Digite sua idade: "))
 jogou_3_ou_mais = input("Já jogou pelo menos 3 jogos de tabuleiro? ").strip().lower() == "true"
