@@ -1,3 +1,5 @@
+# Abre uma frase de um arquivo em txt
+
 import re
 def processar_frase():
     with open("frase.txt", "r") as file:
