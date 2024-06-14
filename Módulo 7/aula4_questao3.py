@@ -1,10 +1,13 @@
+# Analisa um roteiro e olha quantas vezes é citado os nomes "Nonato" e "Íris"
+
 def analisar_roteiro():
     with open("estomago.txt", "r", encoding='latin-1') as file:
         linhas = file.readlines()
     print("Primeiras 25 linhas do texto:")
     for linha in linhas[:25]:
         print(linha.strip())
-    num_linhas = len(linhas)
+        
+    num_linhas = len(linhas) 
     print(f"\nNúmero total de linhas: {num_linhas}")
     linha_mais_longa = max(linhas, key=len)
     print(f"\nLinha com maior número de caracteres: {linha_mais_longa.strip()}")
