@@ -1,3 +1,5 @@
+# Salva uma frase
+
 def salvar_frase():
     frase = input("Digite uma frase: ")
     with open("frase.txt", "w") as file:
