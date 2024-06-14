@@ -1,6 +1,7 @@
+# Calcula valores com juros após 3 meses
+
 saldo = 500.0
 juros = 1.01
-
 
 saldo *= juros
 saldo *= juros
