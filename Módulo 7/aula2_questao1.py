@@ -1,3 +1,5 @@
+# Cria a frase "Você nasceu em {dia} de {mes_extenso} de {ano}."
+
 def data_por_extenso():
     meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", 
              "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
