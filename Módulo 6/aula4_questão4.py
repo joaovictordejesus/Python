@@ -1,3 +1,5 @@
+# Define quais os alunos estão aprovados, sendo o mínimo 60 para ser aprovado.
+
 alunos = ["Maria", "Jose", "Carla", "Sol"]
 notas = [35, 50, 20, 80]
 
