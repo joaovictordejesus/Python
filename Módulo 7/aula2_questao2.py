@@ -1,3 +1,5 @@
+# Substitui as vogais por *
+
 def substituir_vogais():
     frase = input("Digite uma frase: ")
     vogais = "aeiouAEIOUÁáÉéÍíÓóÚúãÃ"
