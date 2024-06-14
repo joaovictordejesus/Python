@@ -1,3 +1,5 @@
+# Faz a validação de um número de celular
+
 def formatar_numero_celular():
     numero = input("Digite o número: ")
     if len(numero) == 8:
