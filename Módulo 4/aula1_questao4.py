@@ -1,3 +1,4 @@
+# Mostra qual é o maior valor de x, e o n é a quantidade de números.
 
 n = int(input("Digite um valor para n: "))
 
