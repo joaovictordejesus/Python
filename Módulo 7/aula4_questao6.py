@@ -1,3 +1,5 @@
+# Analisa arquivo spotify, analisando nome, nome do artista e ano.
+
 import csv
 def analisar_musicas():
     with open("spotify-2023.csv", "r", encoding='latin-1') as file:
