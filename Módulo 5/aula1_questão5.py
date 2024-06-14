@@ -1,3 +1,5 @@
+# Tranforme frases em emojis.
+
 import emoji
 
 def apresentar_emojis_disponiveis():
