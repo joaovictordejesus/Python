@@ -1,4 +1,5 @@
 #Cria duas listas que armazena valores aleatórios mais a interseção
+
 import random
 from collections import Counter
 
