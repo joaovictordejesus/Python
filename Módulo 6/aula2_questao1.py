@@ -1,4 +1,6 @@
-#Primeiro sorteia aleatoriamente, depois ordena
+#Primeiro sorteia aleatoriamente, depois ordena estes números
+#Random é sempre para definir um valor aleatório.
+
 import random
 
 valores = [random.randint(-100, 100) for _ in range(20)]
