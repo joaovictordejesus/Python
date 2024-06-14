@@ -1,4 +1,5 @@
 #Combinação de duas listas de forma intercalada, o usuário determina a quantidade de elementos e também os elemtentos.
+
 def intercalar_listas(lista1, lista2):
     intercalada = []
     for i in range(min(len(lista1), len(lista2))):
@@ -9,6 +10,7 @@ def intercalar_listas(lista1, lista2):
     return intercalada
     
 # Lista Intercalada
+
 n1 = int(input("Digite a quantidade de elementos da lista 1: "))
 lista1 = [int(input(f"Digite o {i+1}º elemento da lista 1: ")) for i in range(n1)]
 
