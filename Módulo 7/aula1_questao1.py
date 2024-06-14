@@ -1,3 +1,5 @@
+# Realiza uma "Escada" com o nome que o usuário inserir.
+
 def escada_nome():
     nome = input("Digite seu nome: ")
     for i in range(1, len(nome) + 1):
