@@ -1,3 +1,5 @@
+# Calcula a menor quantidade possível de notas necessárias para pagar determinado valor.
+
 print("Cálculo da menor quantidade possível de notas necessárias para pagar determinado valor.")
 quantia = int(input("Digite a quantia em reais: "))
 
