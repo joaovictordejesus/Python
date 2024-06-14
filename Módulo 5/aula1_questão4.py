@@ -1,4 +1,5 @@
 # Mostra a data e horário atuais e formata
+
 import datetime
 
 data_hora_atual = datetime.datetime.now()
