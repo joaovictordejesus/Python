@@ -1,4 +1,5 @@
 #  Verificar se a pessoa pode se aposentar
+
 genero = input("Digite seu gênero (M ou F): ").strip().upper()
 idade = int(input("Digite sua idade: "))
 tempo_servico = int(input("Digite seu tempo de serviço (em anos): "))
