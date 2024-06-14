@@ -1,3 +1,5 @@
+# Faz uma mensagem de boas vindas.
+
 def boas_vindas():
     primeiro_nome = input("Digite seu primeiro nome: ")
     sobrenome = input("Digite seu sobrenome: ")
