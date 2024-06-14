@@ -1,4 +1,4 @@
-#Adivinhação de um número aleatório
+# Adivinhação de um número aleatório
 
 import random
 
