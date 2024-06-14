@@ -1,3 +1,5 @@
+# Define se a frase é palíndromo
+
 def verificar_palindromo():
     while True:
         frase = input('Digite uma frase (digite "fim" para encerrar): ')
