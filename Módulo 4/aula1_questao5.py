@@ -1,3 +1,5 @@
+# Define a média de idades de um determinado grupo.
+
 N = int(input("Digite a quantidade de participantes: "))
 
 soma_idades = 0
