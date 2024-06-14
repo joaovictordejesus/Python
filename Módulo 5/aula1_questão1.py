@@ -1,3 +1,5 @@
+# Cálculo de diferença absoluta, que é a diferença arredondada de dois números
+
 def calcular_diferenca_absoluta():
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
