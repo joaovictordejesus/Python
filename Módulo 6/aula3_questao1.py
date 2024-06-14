@@ -1,3 +1,5 @@
+# Mostra diversas interações com um lista determinada
+
 def solicita_numeros():
     numeros = []
     while len(numeros) < 4:
