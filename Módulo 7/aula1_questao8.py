@@ -1,3 +1,5 @@
+# Mostra se o CPF é válido
+
 def calcular_digito(cpf, multiplicadores):
     soma = sum(int(cpf[i]) * multiplicadores[i] for i in range(len(multiplicadores)))
     resto = soma % 11
