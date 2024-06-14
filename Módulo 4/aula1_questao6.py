@@ -1,3 +1,5 @@
+#Define a quantidade de cobais que são sapos, ratos e coelhos e a porcentagem de cada
+
 N = int(input("Digite o número de experimentos: "))
 
 total_cobaias = 0
