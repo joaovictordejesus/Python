@@ -1,3 +1,5 @@
+#Conta quantos espaços tem em uma frase.
+
 def contar_espacos():
     frase = input("Digite a frase: ")
     espacos = frase.count(' ')
