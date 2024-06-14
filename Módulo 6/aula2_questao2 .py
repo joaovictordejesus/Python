@@ -1,5 +1,6 @@
 # O random.randit gera os valores aleatórios 
 # Mostra valores, sua soma e sua média.
+
 import random
 
 num_elementos = random.randint(5, 20)
