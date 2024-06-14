@@ -1,3 +1,5 @@
+# Realiza anagramas, porém está com bug
+
 def encontrar_anagramas():
     frase = input("Digite uma frase: ").split()
     palavra_objetivo = input("Digite a palavra objetivo: ")
