@@ -1,3 +1,5 @@
+# Criptografia de nomes
+
 import random
 
 def encrypt(nomes):
