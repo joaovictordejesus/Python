@@ -1,3 +1,5 @@
+#Adivinhação de um número aleatório
+
 import random
 
 def adivinhar_numero():
