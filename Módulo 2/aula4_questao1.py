@@ -1,3 +1,5 @@
+# Calcula a área de um terreno e seu valor
+
 print("O comprimento e largura devem ser em metros")
 comprimento = int(input("Digite o comprimento do terreno: "))  
 largura = int(input("Digite a largura do terreno: "))  
